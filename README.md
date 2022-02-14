@@ -70,3 +70,7 @@ In the last few months, multiple Iranian media and social networks have publishe
 * It causes an SMS “storm” as multiple botnets operated by different people constantly distribute the phishing links across numerous lists of contacts.
 * Lure themes contain a wide range of topics, including sensitive ones such as complaints and arrest warnings from the Iranian Judiciary service, and cause the potential victims to focus on the lure message and not on their security.
 * Stealing 2FA dynamic codes allows the actors to slowly but steadily withdraw significant amounts of money from the victims’ accounts, even in cases when due to the bank limitations each distinct operation might garner only tens of dollars.
+
+
+### REfrences
+* [checkpoint](https://research.checkpoint.com/2021/smishing-botnets-going-viral-in-iran)
