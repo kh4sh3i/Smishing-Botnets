@@ -72,5 +72,5 @@ In the last few months, multiple Iranian media and social networks have publishe
 * Stealing 2FA dynamic codes allows the actors to slowly but steadily withdraw significant amounts of money from the victims’ accounts, even in cases when due to the bank limitations each distinct operation might garner only tens of dollars.
 
 
-### REfrences
+### reference
 * [checkpoint](https://research.checkpoint.com/2021/smishing-botnets-going-viral-in-iran)
