@@ -1,53 +1,69 @@
 # Smishing Botnets
 In the last few months, multiple Iranian media and social networks have published warnings about ongoing SMS phishing campaigns impersonating Iranian government services. The story is as old as time: victims click on a malicious link, enter their credit card details, and in a matter of hours their money is gone.
 
-#### Infection Chain
+* Infection Chain
  <img src="img/s1.jpg" />
 
-#### Examples of phishing SMS sent to the Iranian citizens
+* Examples of phishing SMS sent to the Iranian citizens
  <img src="img/s2.jpg" />
 
 
-### The phishing site notifies the victim about the complaint against them (on the left) and asks for personal information like name, phone number, and national code to proceed to a fake electronic system
-
-### Fake authentication page (on the left) and the phishing page collecting credit card details (on the right)
-
-### Android manifest for the example malicious application
-
-### The malware notifies the panel about the newly installed bot and uploads all the SMS from the newly infected device
+* The phishing site notifies the victim about the complaint against them (on the left) and asks for personal information like name, phone number, and national code to proceed to a fake electronic system
+ <img src="img/s3.jpg" />
 
 
-### Part of the malware Android manifest describing the SMS receiver
+* Fake authentication page (on the left) and the phishing page collecting credit card details (on the right)
+ <img src="img/s4.webp" />
 
-### The malware sends the newly received SMS to the panel
+* Android manifest for the example malicious application
+ <img src="img/s5.jpg" />
 
-### Firebase configuration from the malware sample
-
-### The malware subscribes to the FCM topic according to the “port” value from the app
-
-
-
-### The piece of malware code that handles sending the SMS and reporting to the server if the operation succeeded (red) or not (yellow)
+* The malware notifies the panel about the newly installed bot and uploads all the SMS from the newly infected device
+ <img src="img/s6.jpg" />
 
 
-### Example of the phishing page integration with Telegram: part of the opt.php script that handles all the user data sends this data to the configured Telegram group
+* Part of the malware Android manifest describing the SMS receiver
+ <img src="img/s7.jpg" />
 
-### Fragment of DNS resolutions for one of the panel IPs, 45.153.241[.]194. It also includes short-lived phishing site domains.
+* The malware sends the newly received SMS to the panel
+ <img src="img/s8.jpg" />
+
+* Firebase configuration from the malware sample
+ <img src="img/s9.jpg" />
+
+* The malware subscribes to the FCM topic according to the “port” value from the app
+ <img src="img/s10.jpg" />
+
+* The piece of malware code that handles sending the SMS and reporting to the server if the operation succeeded (red) or not (yellow)
+ <img src="img/s11.jpg" />
 
 
-### Opendir on one specific port (campaign) on the attackers’ panel
+* Example of the phishing page integration with Telegram: part of the opt.php script that handles all the user data sends this data to the configured Telegram group
+ <img src="img/s12.jpg" />
 
-### A fragment of the SMS dump from one of the victims shows how the stolen credit card was used to withdraw money in very small installments multiple times in a short time (rough translation on the left)
-
-
-### creenshot of one of the phishing sites impersonating the Divar shopping site and its translation (on the left), and a censored fake dating site (on the right)
-
-### Fragment of the malware code responsible for additional features
+* Fragment of DNS resolutions for one of the panel IPs, 45.153.241[.]194. It also includes short-lived phishing site domains.
+ <img src="img/s13.jpg" />
 
 
-### Sample screenshots of Telegram bot panels
+* Opendir on one specific port (campaign) on the attackers’ panel
+ <img src="img/s14.jpg" />
 
-### Sample screenshots of Telegram bot panel containing advanced features
+* A fragment of the SMS dump from one of the victims shows how the stolen credit card was used to withdraw money in very small installments multiple times in a short time (rough translation on the left)
+ <img src="img/s15.jpg" />
+
+
+* creenshot of one of the phishing sites impersonating the Divar shopping site and its translation (on the left), and a censored fake dating site (on the right)
+ <img src="img/s16.jpg" />
+
+* Fragment of the malware code responsible for additional features
+ <img src="img/s17.jpg" />
+
+
+* Sample screenshots of Telegram bot panels
+ <img src="img/s18_19.webp" />
+
+* Sample screenshots of Telegram bot panel containing advanced features
+ <img src="img/s20.jpg" />
 
 
 ## Conclusion
