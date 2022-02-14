@@ -1,9 +1,11 @@
-# Smishing-Botnets
+# Smishing Botnets
 In the last few months, multiple Iranian media and social networks have published warnings about ongoing SMS phishing campaigns impersonating Iranian government services. The story is as old as time: victims click on a malicious link, enter their credit card details, and in a matter of hours their money is gone.
 
-### Infection Chain
+#### Infection Chain
+ <img src="img/s1.jpg" />
 
-### Examples of phishing SMS sent to the Iranian citizens
+#### Examples of phishing SMS sent to the Iranian citizens
+ <img src="img/s2.jpg" />
 
 
 ### The phishing site notifies the victim about the complaint against them (on the left) and asks for personal information like name, phone number, and national code to proceed to a fake electronic system
